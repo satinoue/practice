@@ -1,8 +1,8 @@
 /* Codeiq 314 : mod 2015/03/21
  *
- * return the denominators so that sum of the fractions,
- * that have the numerator "1" and those denominator,
- * equals the input data.
+ * return the numbers so that sum of the fractions,
+ * that have 1 as the numerator and each number as the denominator,
+ * equals the fraction represented by the input data.
 
  * input data:
  * 3 <- data length
