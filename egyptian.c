@@ -55,10 +55,10 @@ void getPear(int m, int n) {
         }
         i++;
     } while (t == n || s != 1);
-    ret[k] = t;
+    ret[k] = t; k++;
 
     // print the answer
-    for (i=0; i<=k; i++) {
+    for (i=0; i<k; i++) {
         printf ("%d ", ret[i]);
     }
     printf ("\n");
