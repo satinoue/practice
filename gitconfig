@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+        name = s.inoue
+        email = s.inoue.dev1988@gmail.com
+
+[alias]
+        st = status
+        br = branch
+        ft = fetch origin
+        co = checkout
+        cb = checkout -b
+        df = diff
+        sts = stash
+        stss = stash save -m
+        stsl = stash list
+        stsc = stash clear
+        #commit
+        ci = commit
+        cim = commit -m
+        ps = push origin HEAD
+        # rebase
+        ciam = commit --amend -m
+        psf = push -f origin HEAD
